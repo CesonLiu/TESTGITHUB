@@ -1,0 +1,22 @@
+gitee 上传文件夹
+
+1、在工程文件下右击鼠标，选择Git Bash Here
+2、弹出来窗口上执行：
+git init 
+
+3、然后执行git add 推送给仓库的文件名
+
+4、提交到本地仓库
+git commit -m "注释内容"
+
+5、提交代码到gitee：
+git remote add origin 远程项目的HTTPS地址
+
+eg: git remote add origin https://gitee.com/liuchang1997520/work_code.git
+
+6、开始强制上传
+git push -u origin master -f
+
+
+
+
